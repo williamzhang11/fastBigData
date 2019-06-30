@@ -5,5 +5,17 @@
 ## 目前已整理的技术以及对应的包名如下：
 |技术|包路径|
 | :------ | :------ |
-| 						|				com.xiu.fastBigData |
+|spark介绍						|               com.xiu.fastBigData.sparkinfo |
+|sparkRDD						|				com.xiu.fastBigData.sparkrdd |
+|spark常用算子介绍 				|				com.xiu.fastBigData.sparkoperator |
+|spark Map算子 					|				com.xiu.fastBigData.map |
+|spark flatMap算子 				|				com.xiu.fastBigData.flatMap |
+|spark mapPartitions算子 		|				com.xiu.fastBigData.mapPartitions |
+|spark glom算子                 |               com.xiu.fastBigData.glom |
+|spark union算子 				|				com.xiu.fastBigData.union |
+|spark cartesian算子 			|				com.xiu.fastBigData.cartesian |
+|spark groupby算子 			    |				com.xiu.fastBigData.groupby |
+
+|spark filter算子               |               com.xiu.fastBigData.filter |
+
 	
