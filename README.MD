@@ -17,5 +17,6 @@
 |spark groupby算子 			    |				com.xiu.fastBigData.groupby |
 
 |spark filter算子               |               com.xiu.fastBigData.filter |
+|spark distinct算子               |               com.xiu.fastBigData.distinct |
 
 	
