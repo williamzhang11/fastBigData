@@ -10,7 +10,6 @@ import java.util.List;
 public class CollectTest {
     public static void main(String[] args){
 
-
         SparkConf conf = new SparkConf().setMaster("local").setAppName("mapTest");
         JavaSparkContext sc = new JavaSparkContext(conf);
         List<String> list = Arrays.asList("a_b","c_d","e_f");
