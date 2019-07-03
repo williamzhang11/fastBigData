@@ -16,7 +16,7 @@
 ## spark生态体系
 	spark生态圈也成为BDAS（伯克利数据分析栈），是伯克利APMLab实验室打造，力图在算法，机器，人之间通过大规模集成来展现大数据应用的一个平台。
 	
-![image](https://github.com/williamzhang11/fastTech/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/union.jpg)
+![image](https://github.com/williamzhang11/fastBigData/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/union.jpg)
 
 	1.Spark Core
 		Spark Core实现Spark基本功能，包含任务调度，内存管理，错误恢复，与存储系统交互等模块。还包括对弹性分布式数据集（RDD）的API定义，RDD
@@ -32,7 +32,7 @@
 	，然后将spark streaming中对DStream 的Transformation操作，将RDD经过操作变成中间结果保存在内存中。整个流式计算根据业务的需求可以对中间
 	的结果进行叠加或者存储到外部设备。
 		
-![image](https://github.com/williamzhang11/fastTech/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/sparkstream.jpg)
+![image](https://github.com/williamzhang11/fastBigData/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/sparkstream.jpg)
 	4.MLib
 	MLlib是一个机器学习库，他提供各种各样算法，这些算法用来在集群上针对分类，回归，聚类，协同过滤等。其中一些算法也可以应用
 	到流数据上，如使用普通最小二乘法或者K均值聚类来计算线性回归。Apache Mahout(一个针对Hadoop的机器学习库)已经脱离
@@ -46,7 +46,7 @@
 	2.数据量不是特别大，但要求实时统计分析需求（实时计算）
 	3.spark是基于内存的迭代计算框架，适用于需要多次操作特定数据集的应用场合，需要反复操作的次数越多，所需读取的数据量越大，受益越大。数据量小，但计算密度
 	较大的场合受益越小。
-![image](https://github.com/williamzhang11/fastTech/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/streaming-arch.jpg)
+![image](https://github.com/williamzhang11/fastBigData/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/streaming-arch.jpg)
 ## spark的运行模式
 	1.Local本地模式 常用于本地开发测试，本地还分为local单线程和local-cluster多线程
 	2.Standalone集群模式 典型的Mater/Slave模式。Master是有单点故障；spark支持Zookeeper来实现HA
@@ -55,7 +55,7 @@
 ## Spark基本原理
 	Spark运行框架如下图，首先由集群资源管理服务（Cluster Manager）、运行作业任务的节点（Worker Node）、每个应用的任务控制节点Driver和
 	每个机器节点上有具体任务的执行进程组成。
-![image](https://github.com/williamzhang11/fastTech/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/sparkexec.jpg)
+![image](https://github.com/williamzhang11/fastBigData/blob/master/src/main/java/com/xiu/fastBigData/sparkinfo/image/sparkexec.jpg)
 
 	执行流程：首先Driver程序启动多个worker，worker从文件系统加载数据并产生RDD,并按照不同分区Cache到内存。
 	

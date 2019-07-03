@@ -3,7 +3,7 @@
     的元素分为一组.函数实现如下:
     1)将
     
-![image](https://github.com/williamzhang11/fastTech/blob/master/src/main/java/com/xiu/fastBigData/groupby/image/groupBy.jpg)
+![image](https://github.com/williamzhang11/fastBigData/blob/master/src/main/java/com/xiu/fastBigData/groupby/image/groupBy.jpg)
     
     上图中方框代表一个RDD分区,相同的key的元素合并到一个组.如V1和V2合并为V,Value为
     V1,V2.形成V,Seq(V1,V2)
