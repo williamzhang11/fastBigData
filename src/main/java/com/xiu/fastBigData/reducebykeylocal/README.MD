@@ -1,0 +1,4 @@
+# reduceByKeyLocal算子
+
+实现的是先reduce再collectAsMap功能,先对RDD的整体进行reduce操作,然后再收集所有结果返回
+为一个HashMap
