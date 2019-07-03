@@ -44,4 +44,15 @@
 
 
 
+
+
+## 附:idea配置支持lambda
+
+    1.file->Project Structure->Modules->再选择指定的代码模块，在Language Level选项选择“8 – Lambda,type annotations etc.”选项
+    2.修改字节码版本设置，file->setting->左上角的搜索框中输入java compiler->javac->Project bytecode version 1.8
+    Target bytecode version 改成1.8
+
+
+
+
 	
