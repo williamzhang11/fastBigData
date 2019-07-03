@@ -15,8 +15,33 @@
 |spark union算子 				|				com.xiu.fastBigData.union |
 |spark cartesian算子 			|				com.xiu.fastBigData.cartesian |
 |spark groupby算子 			    |				com.xiu.fastBigData.groupby |
-
 |spark filter算子               |               com.xiu.fastBigData.filter |
-|spark distinct算子               |               com.xiu.fastBigData.distinct |
+|spark distinct算子             |               com.xiu.fastBigData.distinct |
+|spark subtract算子             |               com.xiu.fastBigData.subtract |
+|spark sample算子               |               com.xiu.fastBigData.sample |
+|spark takeSample算子           |               com.xiu.fastBigData.takeSample |
+|spark cache算子                |               com.xiu.fastBigData.cache |
+|spark persist算子              |               com.xiu.fastBigData.persist|
+|spark mapValues算子            |               com.xiu.fastBigData.mapvalues |
+|spark combineBykey算子         |               com.xiu.fastBigData.combinebykey |
+|spark reduceByKey算子          |               com.xiu.fastBigData.reducebykey |
+|spark partitionBy算子          |               com.xiu.fastBigData.partitionby |
+|spark cogroup算子              |               com.xiu.fastBigData.cogroup|
+|spark join算子                 |               com.xiu.fastBigData.join |
+|spark foreach算子              |               com.xiu.fastBigData.foreach |
+|spark saveAsTextFile算子       |               com.xiu.fastBigData.saveastextfile |
+|spark saveAsObjectFile算子     |               com.xiu.fastBigData.saveasobjectfile |
+|spark collect算子              |               com.xiu.fastBigData.collect |
+|spark collectAsMap算子         |               com.xiu.fastBigData.collectasmap |
+|spark reduceByKeyLocally算子   |               com.xiu.fastBigData.reducebykeylocally |
+|spark lookup算子               |               com.xiu.fastBigData.lookup |
+|spark count算子                |               com.xiu.fastBigData.count |
+|spark top算子                  |               com.xiu.fastBigData.top |
+|spark reduce算子               |               com.xiu.fastBigData.reduce |
+|spark fold算子                 |               com.xiu.fastBigData.fold |
+|spark aggregate算子            |               com.xiu.fastBigData.aggregate |
+
+
+
 
 	

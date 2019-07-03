@@ -1,4 +1,4 @@
-package com.xiu.fastBigData.reduce;
+package com.xiu.fastBigData.fold;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class ReduceTest {
+public class FoldTest {
     public static void main(String[] args){
 
         SparkConf conf = new SparkConf().setMaster("local").setAppName("top");
@@ -22,14 +22,8 @@ public class ReduceTest {
             return  v;
         },false).collect();
 
-        Integer value = rdd.reduce((v1,v2)->{
-            return v1+v2;
-        });
-
+        Integer value = rdd.fold(2,(v1,v2)->{return  v1+v2;});
         System.out.println("value:"+value);
-
-        
-
 
 
     }

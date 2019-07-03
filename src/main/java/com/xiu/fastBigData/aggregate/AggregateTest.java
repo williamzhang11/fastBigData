@@ -1,4 +1,4 @@
-package com.xiu.fastBigData.reduce;
+package com.xiu.fastBigData.aggregate;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
@@ -8,7 +8,8 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class ReduceTest {
+public class AggregateTest {
+
     public static void main(String[] args){
 
         SparkConf conf = new SparkConf().setMaster("local").setAppName("top");
@@ -22,14 +23,8 @@ public class ReduceTest {
             return  v;
         },false).collect();
 
-        Integer value = rdd.reduce((v1,v2)->{
-            return v1+v2;
-        });
-
-        System.out.println("value:"+value);
-
-        
-
+        Integer value =rdd.aggregate(0,((v1, v2) -> {return v1-v2;}),(v3, v4) ->{return v3-v4;} );
+        System.out.println("value="+value);
 
 
     }
