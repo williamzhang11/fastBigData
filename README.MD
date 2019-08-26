@@ -4,42 +4,42 @@
 
 ## 目前已整理的技术以及对应的包名如下：
 |技术|包路径|
-| :------ | :------ |
-|spark介绍						|               com.xiu.fastBigData.sparkinfo |
-|sparkRDD						|				com.xiu.fastBigData.sparkrdd |
-|spark常用算子介绍 				|				com.xiu.fastBigData.sparkoperator |
-|spark Map算子 					|				com.xiu.fastBigData.map |
-|spark flatMap算子 				|				com.xiu.fastBigData.flatMap |
-|spark mapPartitions算子 		|				com.xiu.fastBigData.mapPartitions |
-|spark glom算子                 |               com.xiu.fastBigData.glom |
-|spark union算子 				|				com.xiu.fastBigData.union |
-|spark cartesian算子 			|				com.xiu.fastBigData.cartesian |
-|spark groupby算子 			    |				com.xiu.fastBigData.groupby |
-|spark filter算子               |               com.xiu.fastBigData.filter |
-|spark distinct算子             |               com.xiu.fastBigData.distinct |
-|spark subtract算子             |               com.xiu.fastBigData.subtract |
-|spark sample算子               |               com.xiu.fastBigData.sample |
-|spark takeSample算子           |               com.xiu.fastBigData.takeSample |
-|spark cache算子                |               com.xiu.fastBigData.cache |
-|spark persist算子              |               com.xiu.fastBigData.persist|
-|spark mapValues算子            |               com.xiu.fastBigData.mapvalues |
-|spark combineBykey算子         |               com.xiu.fastBigData.combinebykey |
-|spark reduceByKey算子          |               com.xiu.fastBigData.reducebykey |
-|spark partitionBy算子          |               com.xiu.fastBigData.partitionby |
-|spark cogroup算子              |               com.xiu.fastBigData.cogroup|
-|spark join算子                 |               com.xiu.fastBigData.join |
-|spark foreach算子              |               com.xiu.fastBigData.foreach |
-|spark saveAsTextFile算子       |               com.xiu.fastBigData.saveastextfile |
-|spark saveAsObjectFile算子     |               com.xiu.fastBigData.saveasobjectfile |
-|spark collect算子              |               com.xiu.fastBigData.collect |
-|spark collectAsMap算子         |               com.xiu.fastBigData.collectasmap |
-|spark reduceByKeyLocally算子   |               com.xiu.fastBigData.reducebykeylocally |
-|spark lookup算子               |               com.xiu.fastBigData.lookup |
-|spark count算子                |               com.xiu.fastBigData.count |
-|spark top算子                  |               com.xiu.fastBigData.top |
-|spark reduce算子               |               com.xiu.fastBigData.reduce |
-|spark fold算子                 |               com.xiu.fastBigData.fold |
-|spark aggregate算子            |               com.xiu.fastBigData.aggregate |
+| :------ |
+|[spark介绍](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[sparkRDD](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark常用算子介绍 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark Map算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark flatMap算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark mapPartitions算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark glom算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark union算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark cartesian算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark groupby算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark filter算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark distinct算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark subtract算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark sample算子  ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark takeSample算子  ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark cache算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark persist算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark mapValues算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark combineBykey算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark reduceByKey算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD) |
+|[spark partitionBy算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark cogroup算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark join算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark foreach算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark saveAsTextFile算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark saveAsObjectFile算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark collect算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark collectAsMap算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark reduceByKeyLocally算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark lookup算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark count算子 ](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark top算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark reduce算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark fold算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
+|[spark aggregate算子](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
 
 
 
