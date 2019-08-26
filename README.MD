@@ -3,7 +3,7 @@
  本项目为maven项目，直接使用maven方式导入即可。
 
 ## 目前已整理的技术以及对应的包名如下：
-|技术|包路径|
+|技术|
 | :------ |
 |[spark介绍](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
 |[sparkRDD](src/main/java/com/xiu/fastBigData/sparkinfo/README.MD)|
